@@ -1,0 +1,6 @@
+var calc1=require("./calc.js")
+//result=calc1.add(4,5)
+//result=calc1(5,6)
+//result=calc1.sub(7,3)
+result=calc1.mul(4,3)
+console.log("The Output is:"+result)

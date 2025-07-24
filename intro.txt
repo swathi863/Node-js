@@ -1,0 +1,46 @@
+JavaScript only used on client side
+JavaScript code converted into machine code by javaScriptEngine
+There are Different Engine like
+   *SpyderMonkey(used by Netscape)
+   *V8(used by chrome,Microedge)-->it is most famous because is faster.
+   *chakra(used by intent explorer)
+
+** Node js is not programming language it is runtime environment  where you can run javascript.
+**By using Nodejs you can bulit an Moblie application.
+**Nodejs is a javascriptengine which can run on physical machine.
+**if we has HTTP module you can run node.js in server side.
+**Node.js used for Backend 
+**it is not a framework Because of that Express.js for a developing a framework
+**It has NPM(Node Package Manager).
+**def:- Node.js is a javaScript RunTime Envirnoment which Uses
+        the V8JavaScriptEngine.
+
+
+
+**extension is (.js)
+HTTP Port Number is 80
+
+*createServer is a function which will give you a service.
+*it will accept 2 parameters like which will want to send client and received from the client
+*it will excute the function.
+
+**node js acts as Backend server..
+
+node js accepts multiple requests...it has single thread
+---->asynchrous(if we get request from the  Different servers)
+---->non-blocking I/O(same server) means nodejs not wait for  single it uses another worker to get the response and it communicate  with another serverss...
+*nodejs mostly used  for I/O  intensive work not for the CPU intensive work because when we give factorial program.
+
+*nodejs uses Libuv(bulit non-blocking I/O) bulit in c language uses system kernel has multiple threads.
+
+
+****NPM(node package Manager)(website is npmjs.com)
+**node has inbuilt modules like HTTP,etc....
+**NPM has 1million packages
+
+packages socket.io,mangodb,express there are commands then install 
+* npm install express
+
+**for building a web applications node js uses framework like Express because it is faster 
+
+#install express by npm express
